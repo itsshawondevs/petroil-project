@@ -6,6 +6,7 @@ tailwind.config = {
         },
         colors: {
             'white': '#FFF',
+            'red': '#F40404',
         },
         fontFamily: {
             'poppins': ["'Poppins', sans-serif;"],
