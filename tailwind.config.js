@@ -23,6 +23,14 @@ tailwind.config = {
             'blog2': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url('./images/blog2.jpg')",
             'blog3': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url('./images/blog3.jpg')",
         },
+        screens: {
+          'xs': '350px',
+          'sm': '576px',
+          'md': '768px',
+          'lg': '992px',
+          'xl': '1200px',
+          'xxl': '1400px',
+        },
       }
     }
   }
