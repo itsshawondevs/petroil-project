@@ -14,10 +14,10 @@
 
         <!-- ====== Header start here ====== -->
     <header class="bg-[#282828] border-b-[3px] border-[#FFB800]">
-        <div class="max-w-container mx-auto">
+        <div class="max-w-container mx-auto px-2">
             <div class="flex justify-between items-center py-4">
-                <div class="flex items-center gap-x-[54px]">
-                    <a href="#" class=" text-white text-[12px] font-poppins relative after:absolute after:content-[''] after:w-[1px] after:h-[16px] after:bg-[#5C6A92] after:top-2/4 after:-translate-y-2/4 after:-right-[27px]">
+                <div class="flex flex-col sm:flex-row items-start gap-y-2 sm:items-center gap-x-[40px] md:gap-x-[54px]">
+                    <a href="#" class=" text-white text-[12px] font-poppins relative after:absolute after:content-[''] after:w-[1px] after:h-[16px] after:bg-[#5C6A92] after:top-2/4 after:-translate-y-2/4 after:-right-[20px] md:after:-right-[27px] after:opacity-0 sm:after:opacity-[100]">
                         <i class="fa-regular fa-envelope mr-[5px]"></i>
                         mail@yourcompany.com
                     </a>
@@ -40,29 +40,32 @@
 
         <!-- ====== Navbar start here ====== -->
     <nav class="bg-red">
-        <div class="max-w-container mx-auto">
-            <div class="flex items-center justify-between py-[27px]">
+        <div class="max-w-container mx-auto px-2 relative">
+            <div class="flex items-center justify-between py-[20px] md:py-[27px]">
                 <div>
-                    <img src="./images/logo.png" alt="logo" class="cursor-pointer">
+                    <img src="./images/logo.png" alt="logo" class="cursor-pointer w-[80%] lg:w-full">
                 </div>
-                <div>
-                    <ul class="flex items-center justify-center gap-x-[47px]">
+                <div class="hidden md:block">
+                    <ul class="flex items-center justify-center md:gap-x-10 lg:gap-x-[47px]">
                         <li>
-                            <a href="#" class="text-white font-poppins text-base font-semibold capitalize">home</a>
+                            <a href="#" class="text-white font-poppins text-xs lg:text-base font-semibold capitalize">home</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white font-poppins text-base font-semibold capitalize">about</a>
+                            <a href="#" class="text-white font-poppins text-xs lg:text-base font-semibold capitalize">about</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white font-poppins text-base font-semibold capitalize">services</a>
+                            <a href="#" class="text-white font-poppins text-xs lg:text-base font-semibold capitalize">services</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white font-poppins text-base font-semibold capitalize">gallery</a>
+                            <a href="#" class="text-white font-poppins text-xs lg:text-base font-semibold capitalize">gallery</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <a href="#" class="text-white font-poppins text-base font-semibold uppercase px-8 py-[14px] border-[2px] border-white transition-all duration-300 hover:bg-white hover:text-red">contact</a>
+                <div class="hidden md:block">
+                    <a href="#" class="text-white font-poppins text-xs lg:text-base font-semibold uppercase px-5 lg:px-8 py-[10px] lg:py-[14px] border-[2px] border-white transition-all duration-300 hover:bg-white hover:text-red">contact</a>
+                </div>
+                <div class="md:hidden absolute top-5 right-2">
+                    <i class="fa-solid fa-bars text-3xl text-white"></i>
                 </div>
             </div>
         </div>
